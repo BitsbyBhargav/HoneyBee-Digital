@@ -22,6 +22,7 @@ Honeybee-Digital/
 ├── pytest.ini
 ├── README.md
 ├── DEMO_GUIDE.md
+├── RECORD_NOW.md
 ├── SUBMISSION_REPORT.md
 ├── backend/
 │   ├── __init__.py
@@ -72,9 +73,11 @@ Honeybee-Digital/
 │       └── pune.overpassql
 ├── database/
 │   ├── schema.sql
+│   ├── demo_queries.sql
 │   └── honeybee_dump.sql
 ├── scripts/
 │   ├── local_mysql.py
+│   ├── demo_database.py
 │   ├── database.py
 │   ├── refresh_probe.py
 │   ├── verify_live.py

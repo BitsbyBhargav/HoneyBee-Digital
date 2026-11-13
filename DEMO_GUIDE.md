@@ -1,5 +1,7 @@
 # Demonstration recording guide (target: 4 minutes 20 seconds)
 
+For an immediate recording, use [RECORD_NOW.md](RECORD_NOW.md), which includes exact narration and a read-only command to show the live MySQL table directly in VS Code: `.\.venv\Scripts\python.exe scripts\demo_database.py`.
+
 Record your screen and your own narration. This file is an outline; **no video has been recorded**. Show source code and working outputs you can explain. Keep `.env` and administrative credentials out of the recording; show `.env.example` when discussing configuration.
 
 ## Before recording
