@@ -1,0 +1,84 @@
+{
+  "processed_at_utc": "2026-11-13T04:40:47.375922+00:00",
+  "method": "OpenStreetMap structured POI collection through Overpass API, not HTML scraping",
+  "endpoint": "https://overpass-api.de/api/interpreter",
+  "source": "OpenStreetMap contributors",
+  "licence": "ODbL 1.0",
+  "licence_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+  "attribution_url": "https://www.openstreetmap.org/copyright",
+  "count": 9109,
+  "synthetic_records": 0,
+  "dataset_sha256": "1d83da9bd1a241df34ac060398f6a4fc7efb0841d2a1bab35f13ce461b1e9283",
+  "counts_by_city": {
+    "Bengaluru": 4649,
+    "Chennai": 1345,
+    "Hyderabad": 1331,
+    "Pune": 1784
+  },
+  "with_phone": 2525,
+  "rejected": {
+    "duplicate": 43
+  },
+  "inputs": [
+    {
+      "city_scope": "Bengaluru",
+      "bbox_south_west_north_east": [
+        12.85,
+        77.48,
+        13.08,
+        77.74
+      ],
+      "raw_file": "data/raw/bengaluru.json",
+      "raw_sha256": "36ef40a9ea9134f3456df58f281cc209b4d0e883c648a2f3aca5cdb76484063a",
+      "osm_base_timestamp": "2026-11-13T04:22:32Z",
+      "elements": 4665
+    },
+    {
+      "city_scope": "Hyderabad",
+      "bbox_south_west_north_east": [
+        17.28,
+        78.3,
+        17.55,
+        78.62
+      ],
+      "raw_file": "data/raw/hyderabad.json",
+      "raw_sha256": "71547a37d34c7fc8314b15150c4d4767280b92e18cb017024fa9b63fbf208ac4",
+      "osm_base_timestamp": "2026-11-13T04:28:36Z",
+      "elements": 1341
+    },
+    {
+      "city_scope": "Chennai",
+      "bbox_south_west_north_east": [
+        12.9,
+        80.12,
+        13.18,
+        80.32
+      ],
+      "raw_file": "data/raw/chennai.json",
+      "raw_sha256": "e3a3443c54fcacecbc59c25d300c1afd6b88c0c95041569cff69714375965604",
+      "osm_base_timestamp": "2026-11-13T04:28:36Z",
+      "elements": 1350
+    },
+    {
+      "city_scope": "Pune",
+      "bbox_south_west_north_east": [
+        18.4,
+        73.73,
+        18.65,
+        73.99
+      ],
+      "raw_file": "data/raw/pune.json",
+      "raw_sha256": "a74875739a6b6b22e1ad82b9c9eb3856feaf41e13513b25f618cd7adc141b512",
+      "osm_base_timestamp": "2026-11-13T04:29:35Z",
+      "elements": 1796
+    }
+  ],
+  "unavailable_scopes": [],
+  "limitations": [
+    "Community POIs may be outdated, incomplete or duplicated.",
+    "Street-only addresses are retained as supplied; house numbers and phones may be missing.",
+    "City uses a recognised addr:city alias when present; otherwise the bounded collection scope.",
+    "Bounding boxes are approximate urban areas, not municipal boundary checks.",
+    "No business ownership, current operation or telephone verification was performed."
+  ]
+}

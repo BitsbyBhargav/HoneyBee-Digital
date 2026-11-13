@@ -1,0 +1,6 @@
+* text=auto eol=lf whitespace=trailing-space,space-before-tab,cr-at-eol
+# Preserve exact snapshot bytes so provenance SHA-256 hashes survive checkout.
+data/*.json -text
+data/raw/*.json -text
+database/*.sql -text
+*.png binary

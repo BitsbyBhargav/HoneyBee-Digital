@@ -1,0 +1,14 @@
+{
+  "mysql_count": 9109,
+  "dataset_count": 9109,
+  "dataset_fingerprints_match": true,
+  "all_three_aggregations_match": true,
+  "summary": {
+    "total": 9109,
+    "cities": 4,
+    "categories": 174,
+    "sources": 1,
+    "with_phone": 2525,
+    "latest_import": "2026-11-13T04:31:54"
+  }
+}
